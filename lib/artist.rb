@@ -31,7 +31,7 @@ include Memorable::InstanceMethods
     @@artists
   end
 
-def add_song(song)
+ def add_songs(song)
     @songs << song
     song.artist = self
   end
