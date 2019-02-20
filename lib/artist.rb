@@ -1,6 +1,6 @@
 require 'pry'
 
-class Artist < Memorable, Paramable
+class Artist < Memorable 
   
   extend Memorable
   include Paramable 
