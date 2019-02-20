@@ -18,8 +18,7 @@ include Memorable::InstanceMethods
   # end
   
   def initialize
-    super 
-    @song
+   self.class.all << self
   end 
 
   def self.find_by_name(name)
