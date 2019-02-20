@@ -19,7 +19,7 @@ include Memorable::InstanceMethods
   # end
   
   def initialize
-    self.class.all << self 
+    super  
     @song = []
   end 
 
